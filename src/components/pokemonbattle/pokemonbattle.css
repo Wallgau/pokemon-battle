@@ -1,0 +1,44 @@
+.selector-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pokemon-list {
+  display: flex;
+  gap: 1rem;
+}
+ul {
+  flex: 1;
+  list-style: none;
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px;
+  min-width: 200px;
+}
+
+.select-button {
+  padding: 1rem;
+  background-color: #29292c;
+  color: #fff;
+  border: 1px solid #29292c;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.select-button:hover {
+  background-color: #3b3b3e;
+}
+
+.select-button:focus {
+  border: 2px solid blue;
+}
